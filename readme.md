@@ -1,6 +1,6 @@
 # ACF Block Style location
 
-:bangbang: | WARNING! This plugin is probably unstable since it<br> fiddles its way around to find React instances in the page.
+:bangbang: | WARNING! This plugin is probably unstable since it fiddles<br> its way around to find React instances in the page.
 :---: | :---
 
 Now that you've been warned. Hey, welcome! For those of you who use [block styles](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-styles/) and [ACF Blocks](https://www.advancedcustomfields.com/resources/acf_register_block_type/), you probably wonder why it's not possible to register a group field for a specific block style.
