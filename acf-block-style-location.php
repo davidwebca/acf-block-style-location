@@ -5,7 +5,7 @@ Plugin URI: https://github.com/davidwebca/acf-block-style-location
 Description: WordPress and ACF plugin to allow a Field Group Location for every block style registered
 License: MIT
 Author: David Lapointe Gilbert
-Version: 0.1
+Version: 0.2
 Author URI: https://davidweb.ca
 Text Domain: acfbsl
 Domain Path: /languages
