@@ -11,6 +11,18 @@ Text Domain: acfbsl
 Domain Path: /languages
 */
 
+add_filter('acf/location/rule_types', function ($choices) {
+    $block_styles_cache = get_transient('acf_block_styles');
+    if(!$block_styles_cache) {
+        return $choices;
+    }
+
+    $choices['Blocks'] = [];
+    $choices['Blocks']['acf_block_style'] = 'Block Style';
+
+    return $choices;
+});
+
 
 add_filter('acf/location/rule_values/acf_block_style', function ($choices) {
     $block_styles_cache = get_transient('acf_block_styles');
